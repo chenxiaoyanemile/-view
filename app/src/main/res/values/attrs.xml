@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLineMaker">
+       <!--圆点大小-->
+        <attr name="makerSize" format="dimension"/>
+        <!--圆点颜色或图片-->
+        <attr name="maker" format="color|reference"/>
+        <!--上面线段颜色-->
+        <attr name="beginLine" format="color|reference"/>
+        <!--下面线段颜色-->
+        <attr name="endLine" format="color|reference"/>
+        <!--线段粗细-->
+        <attr name="lineSize" format="dimension"/>
+        <!--横屏还是竖屏-->
+        <attr name="orientation" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeImage">
+        <attr name="border_size" format="dimension" />
+        <attr name="in_border_color" format="color" />
+        <attr name="out_border_color" format="color"/>
+        <attr name="shape_type" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="BounceBallView">
+        <attr name="bounce_count" format="integer"/>
+        <attr name="ball_color" format="color"/>
+        <attr name="ball_radius" format="dimension"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="ball_count" format="integer"/>
+        <attr name="ball_delay" format="integer"/>
+        <attr name="physic_mode" format="boolean"/>
+        <attr name="random_color" format="boolean"/>
+        <attr name="random_radius" format="boolean"/>
+        <attr name="random_path" format="boolean"/>
+    </declare-styleable>
+</resources>

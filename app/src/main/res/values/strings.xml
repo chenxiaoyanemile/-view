@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomizeView</string>
+    <string name="text_first">幼儿园</string>
+    <string name="second">小学</string>
+    <string name="thrid">初中</string>
+    <string name="four">高中</string>
+    <string name="five">大学</string>
+    <string name="download">加载中，请稍后</string>
+</resources>

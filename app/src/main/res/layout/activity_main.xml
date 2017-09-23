@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.sweetgirl.customizeview.timeline.TimeLineMakerView
+            android:id="@+id/time1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:text="@string/text_first"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.sweetgirl.customizeview.timeline.TimeLineMakerView
+            android:id="@+id/time2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:text="@string/second"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.sweetgirl.customizeview.timeline.TimeLineMakerView
+            android:id="@+id/time3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:text="@string/thrid"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.sweetgirl.customizeview.timeline.TimeLineMakerView
+            android:id="@+id/time4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:text="@string/four"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <com.example.sweetgirl.customizeview.timeline.TimeLineMakerView
+                android:id="@+id/time5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="40dp"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="20dp"
+            android:id="@+id/tv_five"
+            android:textColor="@color/colorAccent"
+            android:text="@string/five"/>
+
+        <com.example.sweetgirl.customizeview.start.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shape"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
